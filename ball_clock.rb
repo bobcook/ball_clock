@@ -59,7 +59,7 @@ class BallClock
     @current_queue == @original_queue
   end
 
-  def self.run(ball_count, max_minutes=(1_000_000))
+  def self.run(ball_count, max_minutes=(720))
     limit            = max_minutes
     minutes          = 0
     is_original      = false
