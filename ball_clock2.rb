@@ -82,4 +82,4 @@ class BallClock
   end
 end
 
-BallClock.run(29)
+BallClock.run(29, 100_000)
